@@ -1,0 +1,52 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+/* website navigation bar start */
+nav{
+    position: sticky;
+    top: 0;
+}
+.logodiv{
+    background-color: black;
+    height: 8vh;
+    width: 25%;
+    float: left;
+}
+.centerelements{
+    background-color: black;
+    height: 8vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.centerelements a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    margin: 13px;
+}
+.leftside{
+    background-color: black;
+    height: 8vh;
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content:  flex-end;
+}
+.leftside .search{
+    width: 55px;
+    padding: 10px;    
+}
+.leftside a img{
+    width: 55px;
+    padding: 10px;
+}
+.logo1 img{
+    width: 50%;
+    margin: 4.5px;
+    margin-left: 35px;
+}
+/* website navigation bar end */

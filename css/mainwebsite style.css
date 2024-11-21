@@ -1,0 +1,319 @@
+/* banner */
+.carousel{
+    width: 100%;
+    height: 80vh;
+    clear: both;
+}
+.carousel img{
+    width: 100%;
+    clear: both;
+}
+/* banner */
+/* zbuds start */
+.zbuds{
+    margin-left: 17px;
+}
+#hover-btn-color:hover{
+    color: rgba(231, 229, 228, 0.893);
+}
+.Buds{
+    width: 23%;
+    border-style: solid;
+    border-color: rgba(26, 25, 25, 0.3);
+    border-width: 0.5px;
+    float: left;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: rgba(231, 229, 228, 0.893);
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.Buds p{
+    font-size: 13px
+}
+.zbuds button{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    left: 120px;
+    top: 12px;
+    border: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.view:hover{
+    color: red;
+}
+.zbuds .view{
+    text-decoration: none;
+    color: black;
+}
+.Buds img{
+    width: 109%;
+    height: 270px;
+    border-radius: 30px;
+    margin-top: -12px;
+    margin-left: -12px;
+    margin-bottom: 13px;
+}
+.link{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-left: 11px;
+    padding-right: 11px;
+    position: absolute;
+    right: 10px;
+    bottom: 19px;
+}
+.link:hover{
+    font-size: 12.5px;
+}
+h1,h3{
+    font-weight: bolder;
+}
+.relative{
+    position: absolute;
+}
+@media screen and (max-width:700px) {
+    .zbuds{
+        display: flex;
+        flex-direction: column;
+    }
+    .Buds img{
+        width: 107.6%;
+    }
+
+}
+/* zbuds */
+/* banner1 */
+.banner1{
+    background-color: red;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 40px;
+    clear: both;
+}
+.banner1 img{
+    width: 100%;
+    height: 30vh;
+}
+/* banner1 */
+/* watches start */
+.zwatches{
+    margin-left: 17px;
+}
+.watches{
+    width: 23%;
+    border-style: solid;
+    border-color: rgba(26, 25, 25, 0.3);
+    border-width: 0.5px;
+    float: left;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: rgba(231, 229, 228, 0.893);
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: -25px;
+}
+.watches p{
+    font-size: 12px;
+}
+.zwatches button{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    left: 290px;
+    top: -43.5px;
+    border: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.view:hover{
+    color: red;
+}
+.zwatches .view{
+    text-decoration: none;
+    color: black;
+}
+.watches img{
+    width: 109%;
+    height: 310px;
+    border-radius: 30px;
+    margin-top: -12px;
+    margin-left: -12px;
+    margin-bottom: 13px;
+}
+.watcheslink{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-left: 11px;
+    padding-right: 11px;
+    position: absolute;
+    right: 10px;
+    bottom: 19px;
+}
+.watcheslink:hover{
+    font-size: 12.5px;
+}
+h1,h3{
+    font-weight: bolder;
+}
+.relative{
+    position: absolute;
+}
+@media screen and (max-width:700px) {
+    .zwatches{
+        display: flex;
+        flex-direction: column;
+    }
+    .watches img{
+        width: 107.6%;
+    }
+
+}
+
+/* watches end */
+/* banner2 start */
+.banner2{
+    height: 15vh;
+    border-style: solid;
+    border-color: black;
+    clear: both;
+    border-width: 0.8px;
+    border-radius: 6px;
+    width: 90%;
+}
+.col-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.col-3 img{
+    width: 30%;
+}
+/* banner2 end*/
+.life h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.selection{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.selection .col a img{
+    width: 100%;
+}
+/* banner3 start */
+.banner3{
+    width: 100%;
+    height: 100vh;
+    clear: both;
+}
+.banner3 img{
+    width: 100%;
+}
+/* banner3 end */
+
+/* offer of the day*/
+.zoffer{
+    margin-left: 17px;
+}
+.offer{
+    width: 23%;
+    border-style: solid;
+    border-color: rgba(26, 25, 25, 0.3);
+    border-width: 0.5px;
+    float: left;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: rgba(231, 229, 228, 0.893);
+    position: relative;
+    margin-bottom: 30px;
+}
+.offer p{
+    font-size: 12px;
+}
+.offer img{
+    width: 109%;
+    height: 310px;
+    border-radius: 30px;
+    margin-top: -12px;
+    margin-left: -12px;
+    margin-bottom: 13px;
+}
+.offerlink{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-left: 11px;
+    padding-right: 11px;
+    position: absolute;
+    right: 10px;
+    bottom: 19px;
+}
+.offerlink:hover{
+    font-size: 12.5px;
+}
+h1,h3{
+    font-weight: bolder;
+}
+@media screen and (max-width:700px) {
+    .zwatches{
+        display: flex;
+        flex-direction: column;
+    }
+    .watches img{
+        width: 107.6%;
+    }
+
+}
+/* offer of the day*/
+
+/* banner4 start */
+.banner4{
+    width: 100%;
+    height: 73vh;
+    clear: both;
+}
+.banner4 img{
+    width: 100%;
+}
+/* banner4 end */
+/* details */
+.details h3{
+    font-size: 17px;
+    padding: 13px;
+    margin-left: 15px;
+}
+.details p{
+    font-size: 12.5px;
+    margin-left: 30px;
+}
+/* details */
+
+.dropdown-item a{
+    color: black;
+}
+.dropdown-item a:hover{
+    color: red;
+}

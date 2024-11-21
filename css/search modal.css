@@ -1,0 +1,46 @@
+.modal-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.modal-body a:hover {
+  text-decoration: none;
+  background-color: rgba(49, 49, 49, 0.08);
+}
+
+.modal-header {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-title input {
+  background-color: rgb(33, 32, 32);
+  color: white;
+  border: none;
+  width: 160%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-close:hover {
+  background-color: red;
+}
+
+.btn-close {
+  color: white;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 285px;
+  top: auto;
+}
+
+.cross {
+  background-color: rgb(33, 32, 32);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: x-large;
+  position: absolute;
+  left: 460px;
+  top: auto;
+}
